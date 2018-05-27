@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: white;
+  margin-top: 10%;
+}
+
+#display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  float: center;
+}
+
+.text-center {
+  display: none;
+}
+
+#temp {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#desc {
+  font-weight: 800;
+}
+
+#load {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,77 @@
+body {
+  background-color: #3E606F;
+  color: silver;
+  font-family: Roboto;
+}
+
+h1 {
+  font-family: "Just Another Hand";
+  font-size: 90px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-box {
+  width: auto;
+  height: auto;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 30px;
+  padding: 20px;
+  max-width: 60%;
+  min-width: 25%;
+  font-size: 25px;
+  background-color: #91AA9D;
+  color: #193441;
+  display: none;
+}
+
+.quote-box button {
+  float: right;
+  font-size: 20px;
+  border-bottom: 3px solid silver;
+  background-color: #D1DBBD;
+}
+
+#author {
+  float: left;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 17px;
+  margin-top: 100px;
+}
+
+.footer a {
+  margin-right: 20px;
+  color: black;
+}
+
+@media (max-width: 950px) {
+  h1 {
+    font-size: 40px;
+  }
+  
+  .quote-box {
+    margin: 20px;
+    padding: 15px;
+    font-size: 14px;
+    max-height: 60%;
+  }
+  
+  .quote-box button {
+    font-size: 14px;
+  }
+  
+  .footer {
+    font-size: 12px;
+  }
+}

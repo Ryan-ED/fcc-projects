@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  margin-bottom: 15px;
+/*   Compliments of uigradients.com */
+  background: #fc00ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+thead {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+tbody {
+  font-size: 20px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table img {
+  width: 40px;
+  border-radius: 40px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 18px;
+  color: green;
+}
+
+@media (max-width: 768px){
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  thead {
+    font-size: 16px;
+  }
+}
